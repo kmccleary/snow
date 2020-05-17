@@ -1,0 +1,18 @@
+{
+  "name": "snow",
+  "version": "1.0.0",
+  "description": "Snow compiler toolchain.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "test": "mocha"
+  },
+  "author": "Kenneth McCleary <ken@mccleary.me>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.0.0",
+    "mocha": "^7.1.1"
+  }
+}
